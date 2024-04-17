@@ -2,7 +2,7 @@
 
   
 
-->git clone https://github.com/AliasHe103/react-with-electron/edit/main/README.md  
+->git clone https://github.com/AliasHe103/React-with-Electron
 
   
 ->npm install  
