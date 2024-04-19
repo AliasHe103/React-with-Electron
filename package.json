@@ -18,12 +18,13 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
+    "react-start": "react-scripts start",
+    "react-build": "react-scripts build",
+    "react-test": "react-scripts test",
+    "react-eject": "react-scripts eject",
     "electron": "electron .",
-    "electron-dev": "electron . dev"
+    "electron-dev": "electron . dev",
+    "both-exec": "react-scripts build && electron ."
   },
   "eslintConfig": {
     "extends": [
