@@ -8,9 +8,9 @@
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  /*.App-logo {*/
-  /*  animation: App-logo-spin infinite 20s linear;*/
-  /*}*/
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
 }
 
 .App-header {
@@ -36,20 +36,4 @@
   to {
     transform: rotate(360deg);
   }
-}
-
-.logos {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.hust-logo {
-  width: 100px;
-  margin-right: 20px;
-}
-
-.sql-logo {
-  width: 100px;
-  height: 100px;
 }
